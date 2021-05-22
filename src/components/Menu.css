@@ -1,0 +1,35 @@
+.menu { 
+    grid-area: menu;
+    background-color: #003B72;
+    padding-top: 10px;
+}
+
+.item {
+    display:flex;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+}
+
+
+.item svg {
+    margin-right: 14px;
+}
+
+.active {
+    background-color:#FFFFFF;
+    color: #7761FF;
+}
+
+.active svg path {
+    fill: #7761FF;
+}
+
+
+
+  
